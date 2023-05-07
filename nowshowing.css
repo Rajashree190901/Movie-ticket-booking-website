@@ -2,6 +2,38 @@ body {
     background-color: black;
     
 }
+.navbar {
+    background-color: rgba(83, 80, 80, 0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 0 50px;
+  }
+  
+  .navbar h1 {
+    font-size: 30px;
+    color: white;
+    margin: 0;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar ul li {
+    margin: 0 10px;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+  }
 
 .movie-list-container {
     padding: 10px;
